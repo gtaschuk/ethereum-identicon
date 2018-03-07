@@ -1,6 +1,6 @@
 {
   "name": "ethereum-identicon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "build/index.js",
   "dependencies": {
     "jazzicon": "^2.0.0",
