@@ -4,8 +4,8 @@
   "main": "build/index.js",
   "dependencies": {
     "jazzicon": "^2.0.0",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react": "^16.0.0 || ^15.0.0",
+    "react-dom": "^16.0.0 || ^15.0.0"
   },
   "description": "A visual identifier for an ethereum address",
   "repository": {
@@ -24,10 +24,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.2",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "prop-types": "^15.6.1"
+    "babel-preset-react": "^6.24.1"
   },
   "scripts": {
     "build": "babel lib -d build",
